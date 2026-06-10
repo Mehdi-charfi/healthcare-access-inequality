@@ -1,8 +1,9 @@
 // Export the medline.tn doctor directory (the "supply" dataset) to CSV.
 //
 // Source: the medline site's static doctor asset (public/_/x.json) — the
-// CNOM national registry, filtered to practising doctors with a usable
-// address. Run from the project root:
+// CNOM national registry, filtered to practising doctors in PRIVATE PRACTICE
+// (those reachable at their own cabinet address). Doctors working only in
+// public hospitals are not represented. Run from the project root:
 //
 //   node src/export_doctors.mjs
 //

@@ -1,0 +1,25 @@
+gouvernoratSlug,governorate,population,doctors,per_100k,search_impr,demand_per_100k,gap
+tunis,Tunis,1056247,2338,221.3,748,70.82,0.0
+ariana,Ariana,576088,1016,176.4,134,23.26,-0.083
+benarous,Ben Arous,631842,527,83.4,35,5.54,-0.333
+manouba,Manouba,379518,173,45.6,79,20.82,0.25
+nabeul,Nabeul,787920,631,80.1,136,17.26,0.0
+zaghouan,Zaghouan,176945,63,35.6,2,1.13,-0.167
+bizerte,Bizerte,568219,372,65.5,98,17.25,0.0
+beja,Béja,303032,130,42.9,19,6.27,0.0
+jendouba,Jendouba,401477,128,31.9,90,22.42,0.583
+kef,Le Kef,243156,89,36.6,50,20.56,0.375
+siliana,Siliana,223087,45,20.2,3,1.34,0.188
+kairouan,Kairouan,570559,195,34.2,33,5.78,0.167
+kasserine,Kasserine,439243,113,25.7,3,0.68,0.0
+sidi-bouzid,Sidi Bouzid,429912,129,30.0,14,3.26,0.125
+sousse,Sousse,674971,819,121.3,198,29.33,0.042
+monastir,Monastir,548828,550,100.2,56,10.2,-0.25
+mahdia,Mahdia,410812,253,61.6,33,8.03,-0.083
+sfax,Sfax,955421,1380,144.4,416,43.54,0.042
+gafsa,Gafsa,337331,135,40.0,15,4.45,-0.083
+tozeur,Tozeur,107912,33,30.6,1,0.93,-0.083
+kebili,Kébili,156961,60,38.2,0,0.0,-0.375
+gabes,Gabès,374300,208,55.6,44,11.76,0.042
+medenine,Médenine,479520,420,87.6,16,3.34,-0.458
+tataouine,Tataouine,149453,44,29.4,2,1.34,0.104

@@ -1,0 +1,7 @@
+# Streamlit theme — light, with the medline brand accent.
+[theme]
+base = "light"
+primaryColor = "#6B1D2F"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#faf7f5"
+font = "sans serif"

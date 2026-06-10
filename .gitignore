@@ -6,6 +6,12 @@ data/raw/*
 data/external/*
 data/processed/*
 !data/**/.gitkeep
+# ...but DO commit the small, PII-free aggregates the deployed dashboard reads
+# (built by src/build_dashboard_data.py — counts + geometry only, no names/contacts):
+!data/processed/governorate_metrics.csv
+!data/processed/specialty_metrics.csv
+!data/processed/specialty_gov_counts.csv
+!data/processed/governorates.geojson
 
 # ── Python ────────────────────────────────────────────────────────────
 __pycache__/

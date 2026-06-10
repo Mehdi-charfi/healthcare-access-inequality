@@ -1,0 +1,20 @@
+# Full local environment — notebooks (01-03) + the data pipeline
+# (src/export_*.mjs needs Node, not pip; src/population_tn.py and
+# src/build_dashboard_data.py need these). Includes the app runtime.
+-r requirements.txt
+
+numpy>=1.26
+matplotlib>=3.8
+seaborn>=0.13
+
+# Geospatial — notebook choropleths + dashboard precompute
+geopandas>=0.14
+shapely>=2.0
+folium>=0.16
+mapclassify>=2.6
+
+# Fuzzy matching (query -> taxonomy, dedup experiments)
+rapidfuzz>=3.6
+
+# Notebooks
+jupyterlab>=4.0
