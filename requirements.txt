@@ -1,0 +1,21 @@
+# Core data manipulation
+pandas>=2.2
+numpy>=1.26
+
+# Visualisation
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.20
+
+# Geospatial (the flagship maps)
+geopandas>=0.14
+shapely>=2.0
+folium>=0.16
+mapclassify>=2.6
+
+# Fuzzy matching (query -> taxonomy, dedup)
+rapidfuzz>=3.6
+
+# Notebook + dashboard
+jupyterlab>=4.0
+streamlit>=1.33

@@ -1,0 +1,26 @@
+# ── Data ──────────────────────────────────────────────────────────────
+# Raw extracts carry PII (doctor phone numbers + personal emails) and are
+# large — they are NEVER committed. Only derived, no-PII aggregates under
+# data/processed/ may be added explicitly. The folders are kept via .gitkeep.
+data/raw/*
+data/external/*
+data/processed/*
+!data/**/.gitkeep
+
+# ── Python ────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.python-version
+
+# ── Notebooks ─────────────────────────────────────────────────────────
+# Strip heavy/embedded outputs before committing (nbstripout recommended).
+
+# ── OS / editor ───────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
